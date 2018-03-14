@@ -10,9 +10,11 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
+ *= require font-awesome
  *= require_tree .
  *= require_self
  */
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700');
 :root {
     --font-osc: 'Open Sans Condensed', sans-serif;
@@ -22,14 +24,11 @@
 *::after {
     box-sizing: border-box;
 }
-html, body {
-    margin: 0;
-}
 .bg-image {
     background: url('https://raw.githubusercontent.com/harayu/Knockout-Text/master/images/bgcat.jpg') center bottom;
     background-size: cover;
-    width: 100vw;
-    height: 100vh;
+    width: 98vw;
+    height:90vh;
 }
 .knockout-text {
     position: relative;

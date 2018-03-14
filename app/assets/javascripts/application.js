@@ -13,8 +13,7 @@
 //= require rails-ujs
 //= require turbolinks
 //= require_tree .
-$( document ).ready(function() {
-    {
+function myFunction() {
             let text = document.querySelector('.knockout-text');
             let span = text.firstElementChild;
             let spanWidth = span.clientWidth;
@@ -30,5 +29,4 @@ $( document ).ready(function() {
                     text.style.mixBlendMode = 'normal';
                 }, 2000);
             }, false);
-        }
-});
+}
